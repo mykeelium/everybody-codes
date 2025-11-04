@@ -1,0 +1,3 @@
+Wyrdar,Havselor,Tordaros,Brivtyr,Xilxelor,Dalsarix,Quirzal,Malgoril,Dalnor,Talkryth,Drelaxar,Marnoris,Dalgnar,Orytyr,Karthdin,Fyrgnaris,Selselor,Tazcalyx,Agnarnarith,Tyrbryn
+
+L15,R17,L15,R14,L11,R6,L9,R12,L18,R12,L5,R15,L5,R5,L5,R8,L5,R11,L5,R17,L5,R17,L18,R14,L11,R14,L6,R12,L9

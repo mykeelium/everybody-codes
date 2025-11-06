@@ -49,22 +49,20 @@ func main() {
 			}
 		}
 
+		fmt.Printf("Finished chain: %d\n", len(chains))
+
 		for _, item := range chain {
-			toBreak := false
 			for i, original := range nums {
 				if item == original {
 					nums[i] = nums[len(nums)-1]
 					nums = nums[:len(nums)-1]
-					toBreak = true
 					break
 				}
-			}
-			if toBreak {
-				break
 			}
 		}
 
 		chains = append(chains, chain)
+		fmt.Printf("Remaining nums: %d\n", len(nums))
 	}
 
 	fmt.Printf("Chains: %d\n", len(chains))
